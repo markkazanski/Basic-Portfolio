@@ -1,3 +1,7 @@
+body{
+	background-color: #EEEEEE;
+}
+
 header{
 	background-color:#fff;
 	border-bottom:1px solid #ccc;
@@ -14,6 +18,9 @@ header #logo{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size:50px;
 	float:left;
+	background-color:#4AAAA5;
+	padding:20px 30px;
+	color:#fff;
 }
 
 header nav{
@@ -27,7 +34,7 @@ header nav{
 }
 
 #main{
-	
+
 }
 
 #main article{
@@ -39,4 +46,12 @@ header nav{
 #main aside{
 	width:33%;
 	float:left;
+}
+
+footer{
+	background-color: #666666;
+	text-align:center;
+	padding:30px 0;
+	color:#fff;
+	border-top:6px solid #4AAAA5;
 }
