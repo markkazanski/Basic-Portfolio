@@ -1,10 +1,13 @@
 header{
-	
-	width:960px;
-	margin:auto;
-
 	background-color:#fff;
 	border-bottom:1px solid #ccc;
+}
+
+.header-inner,
+.footer-inner,
+#main{
+	width:960px;
+	margin:auto;
 }
 
 header #logo{
@@ -24,8 +27,7 @@ header nav{
 }
 
 #main{
-	width:960px;
-	margin:auto;
+	
 }
 
 #main article{
