@@ -63,9 +63,14 @@ header nav ul li {
 
 #main article h1{
 	color:#4AAAA5;
-	padding-bottom:16px;
+	padding-bottom:30px;
+	margin-bottom:30px;
 	border-bottom:2px solid #ddd;
 	font-size:50px;
+}
+
+#main article p{
+	margin-bottom:30px;
 }
 
 #main aside{
@@ -73,6 +78,8 @@ header nav ul li {
 	float:left;
 	background-color: #fff;
 }
+
+#main aside h3{ font-size:28px; }
 
 #main article .content-inner,
 #main aside .aside-inner{
