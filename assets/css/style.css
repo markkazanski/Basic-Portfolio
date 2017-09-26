@@ -2,6 +2,7 @@ body{
 	background-color: #EEEEEE;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url("../images/noisy.png");
+	margin:0;
 }
 
 header{
@@ -161,3 +162,10 @@ footer{
 }
 
 /*STICKY FOOTER*/
+#content-wrapper{
+  min-height: calc(100vh - 98px);
+   /*padding: 40px 40px 0 40px;*/
+}
+footer {
+  /*height: 50px;*/
+}
